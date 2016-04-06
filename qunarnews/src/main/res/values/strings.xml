@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">去哪儿新闻</string>
+
+    <string name="action_settings">设置</string>
+    <string name="nav_tab_news">新闻</string>
+    <string name="nav_tab_read">阅读</string>
+    <string name="nav_tab_video">视听</string>
+    <string name="nav_tab_discovery">发现</string>
+    <string name="nav_tab_myself">我</string>
+</resources>

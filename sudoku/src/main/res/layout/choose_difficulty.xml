@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/titile_bgcolor"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/difficulty_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/title_left_margin"
+            android:src="@mipmap/title_return" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/choose_difficulty"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/textsize"
+            android:layout_marginLeft="@dimen/difficulty_text_left_margin"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/continue_game"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_hight"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:background="@drawable/setbutton_bg"
+        android:gravity="center"
+        android:text="@string/difficulty_easy"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:id="@+id/new_game"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_hight"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/difficulty_button_margin_top"
+        android:background="@drawable/setbutton_bg"
+        android:gravity="center"
+        android:text="@string/difficulty_medium"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:id="@+id/game_guide"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_hight"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/difficulty_button_margin_top"
+        android:background="@drawable/setbutton_bg"
+        android:gravity="center"
+        android:text="@string/difficulty_difficult"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize" />
+
+</LinearLayout>

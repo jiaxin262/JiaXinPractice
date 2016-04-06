@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="welcome_bgcolor">#5d478b</color>
+    <color name="welcome_text_color">#ffffff</color>
+    <color name="app_background">#ededed</color>
+    <color name="index_sudoku_color">#5d478b</color>
+    <color name="button_bgcolor">#5d478b</color>
+    <color name="text_color">#ffffff</color>
+    <color name="button_border_color">#ffffff</color>
+    <color name="titile_bgcolor">#5d478b</color>
+    <color name="game_guide_color">#00afc5</color>
+    <color name="description_bgcolor">#d4d4d4</color>
+</resources>

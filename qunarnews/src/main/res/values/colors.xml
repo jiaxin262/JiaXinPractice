@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_host_text_normal">#aaaaaa</color>
+    <color name="tab_host_text_checked">#eb413d</color>
+    <color name="line">#aaaaaa</color>
+    <color name="theme_bg">#f6f6f6</color>
+    <color name="theme_color_focus">#eb413d</color>
+    <color name="tab_cursor_bg">@color/theme_color_focus</color>
+    <color name="tab_text">#a1a1a1</color>
+    <color name="news_item_bg_normal">@color/theme_bg</color>
+    <color name="news_item_bg_pressed">#bcbcbc</color>
+    <color name="news_title">#000000</color>
+    <color name="news_description">#8c8c8c</color>
+</resources>

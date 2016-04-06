@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TextViewDuang</string>
+    <string name="marquee_effect">跑马灯效果</string>
+    <string name="shadow_effect">阴影效果</string>
+    <string name="fromhtml_effect">fromhtml设置效果</string>
+    <string name="alpha_animation_effect">文本透明度动画效果</string>
+    <string name="rotate_animation_effect">文本旋转动画效果</string>
+    <string name="scale_animation_effect">文本缩放动画效果</string>
+    <string name="translate_animation_effect">文本移动动画效果</string>
+    <string name="neonlights_effect">霓虹灯效果</string>
+    <string name="image_effect">包含图片的TextView效果</string>
+</resources>

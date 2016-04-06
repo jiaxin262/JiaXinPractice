@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/line"/>
+
+    <RadioGroup
+        android:id="@+id/menus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/nav_tab_news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nav_tab_news"
+            android:textSize="12sp"
+            android:textColor="@color/tab_host_text_color"
+            android:drawableTop="@drawable/nav_tab_news"
+            android:gravity="center_horizontal"
+            android:button="@null"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/nav_tab_read"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nav_tab_read"
+            android:textSize="12sp"
+            android:textColor="@color/tab_host_text_color"
+            android:drawableTop="@drawable/nav_tab_news"
+            android:gravity="center_horizontal"
+            android:button="@null"
+            />
+
+        <RadioButton
+            android:id="@+id/nav_tab_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nav_tab_video"
+            android:textSize="12sp"
+            android:textColor="@color/tab_host_text_color"
+            android:drawableTop="@drawable/nav_tab_news"
+            android:gravity="center_horizontal"
+            android:button="@null"
+            />
+
+        <RadioButton
+            android:id="@+id/nav_tab_discovery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nav_tab_discovery"
+            android:textSize="12sp"
+            android:textColor="@color/tab_host_text_color"
+            android:drawableTop="@drawable/nav_tab_news"
+            android:gravity="center_horizontal"
+            android:button="@null"
+            />
+
+        <RadioButton
+            android:id="@+id/nav_tab_myself"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nav_tab_myself"
+            android:textSize="12sp"
+            android:textColor="@color/tab_host_text_color"
+            android:drawableTop="@drawable/nav_tab_news"
+            android:gravity="center_horizontal"
+            android:button="@null"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>

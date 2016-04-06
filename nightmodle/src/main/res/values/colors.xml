@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title">#ff88ff</color>
+    <color name="night_title">#008800</color>
+    <color name="bg">#00aabb</color>
+    <color name="night_bg">#bbaa00</color>
+</resources>

@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_background">
+
+    <TextView
+        android:text="@string/index_sudoku_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/index_sudoku_color"
+        android:textSize="@dimen/index_sudoku_textsize"
+        android:layout_marginTop="@dimen/index_margin_top"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/continue_game"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_hight"
+        android:background="@drawable/selector_button"
+        android:text="@string/continue_game"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <TextView
+        android:id="@+id/new_game"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_hight"
+        android:background="@drawable/selector_button"
+        android:text="@string/new_game"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/button_marginTop"/>
+
+    <TextView
+        android:id="@+id/game_guide"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_hight"
+        android:background="@drawable/selector_button"
+        android:text="@string/game_guide"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/button_marginTop"/>
+
+    <TextView
+        android:id="@+id/game_setting"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_hight"
+        android:background="@drawable/selector_button"
+        android:text="@string/game_setting"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/button_marginTop"/>
+
+    <TextView
+        android:id="@+id/ranking_list"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_hight"
+        android:background="@drawable/selector_button"
+        android:text="@string/ranking_list"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/button_marginTop"
+        />
+    <TextView
+        android:id="@+id/share"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_hight"
+        android:background="@drawable/selector_button"
+        android:text="@string/share"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/button_marginTop"
+        />
+
+</LinearLayout>

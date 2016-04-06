@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animationdemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/listviewdemo" />
+            <option value="$PROJECT_DIR$/nightmodle" />
+            <option value="$PROJECT_DIR$/pulltofresh" />
+            <option value="$PROJECT_DIR$/qunarnews" />
+            <option value="$PROJECT_DIR$/sharedemo" />
+            <option value="$PROJECT_DIR$/sudoku" />
+            <option value="$PROJECT_DIR$/textviewduang" />
+            <option value="$PROJECT_DIR$/viewpagerdemo" />
+            <option value="$PROJECT_DIR$/zrcListView" />
+            <option value="$PROJECT_DIR$/zrcListViewDemo" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animationdemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/listviewdemo" />
+            <option value="$PROJECT_DIR$/nightmodle" />
+            <option value="$PROJECT_DIR$/pulltofresh" />
+            <option value="$PROJECT_DIR$/qunarnews" />
+            <option value="$PROJECT_DIR$/sharedemo" />
+            <option value="$PROJECT_DIR$/sudoku" />
+            <option value="$PROJECT_DIR$/textviewduang" />
+            <option value="$PROJECT_DIR$/viewpagerdemo" />
+            <option value="$PROJECT_DIR$/zrcListView" />
+            <option value="$PROJECT_DIR$/zrcListViewDemo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

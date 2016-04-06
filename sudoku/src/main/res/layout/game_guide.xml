@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/titile_bgcolor"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/guide_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/title_left_margin"
+            android:src="@mipmap/title_return" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/game_guide"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/textsize"
+            android:layout_marginLeft="@dimen/guide_title_left_margin"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sudoku_description"
+        android:textSize="@dimen/sudoku_description_size"
+        android:textColor="@color/game_guide_color"
+        android:layout_margin="@dimen/guide_text_margin"
+        android:padding="@dimen/guide_text_padding"
+        android:background="@color/description_bgcolor"/>
+
+    <TextView
+        android:id="@+id/start_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_guide"
+        android:textSize="@dimen/start_guide_textsize"
+        android:textColor="@color/game_guide_color"
+        android:gravity="center"
+        android:drawableTop="@mipmap/click"
+        android:layout_marginTop="@dimen/start_guide_margin_top"/>
+
+</LinearLayout>

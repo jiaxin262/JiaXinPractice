@@ -1,0 +1,26 @@
+<resources>
+    <dimen name="welcome_logo_margin_top">155dp</dimen>
+    <dimen name="welcome_text_margin_top">15dp</dimen>
+    <dimen name="index_margin_top">50dp</dimen>
+    <dimen name="button_width">160dp</dimen>
+    <dimen name="button_hight">43dp</dimen>
+    <dimen name="button_margin_top">50dp</dimen>
+    <dimen name="button_marginTop">20dp</dimen>
+    <dimen name="difficulty_button_margin_top">40dp</dimen>
+    <dimen name="title_height">40dp</dimen>
+    <dimen name="title_left_margin">8dp</dimen>
+    <dimen name="difficulty_text_left_margin">75dp</dimen>
+    <dimen name="setting_text_left_margin">110dp</dimen>
+    <dimen name="guide_title_left_margin">100dp</dimen>
+    <dimen name="guide_text_margin">10dp</dimen>
+    <dimen name="guide_text_padding">20dp</dimen>
+    <dimen name="start_guide_margin_top">40dp</dimen>
+
+    <dimen name="welcome_sudoku_textsize">70sp</dimen>
+    <dimen name="welcome_textsize">23sp</dimen>
+    <dimen name="index_sudoku_textsize">70sp</dimen>
+    <dimen name="textsize">22sp</dimen>
+    <dimen name="sudoku_description_size">23sp</dimen>
+    <dimen name="start_guide_textsize">30sp</dimen>
+
+</resources>

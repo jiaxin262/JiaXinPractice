@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JiaXinPractice.iml" filepath="$PROJECT_DIR$/JiaXinPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animationdemo/animationdemo.iml" filepath="$PROJECT_DIR$/animationdemo/animationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewdemo/listviewdemo.iml" filepath="$PROJECT_DIR$/listviewdemo/listviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nightmodle/nightmodle.iml" filepath="$PROJECT_DIR$/nightmodle/nightmodle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltofresh/pulltofresh.iml" filepath="$PROJECT_DIR$/pulltofresh/pulltofresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qunarnews/qunarnews.iml" filepath="$PROJECT_DIR$/qunarnews/qunarnews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedemo/sharedemo.iml" filepath="$PROJECT_DIR$/sharedemo/sharedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sudoku/sudoku.iml" filepath="$PROJECT_DIR$/sudoku/sudoku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textviewduang/textviewduang.iml" filepath="$PROJECT_DIR$/textviewduang/textviewduang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" filepath="$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zrcListView/zrcListView.iml" filepath="$PROJECT_DIR$/zrcListView/zrcListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zrcListViewDemo/zrcListViewDemo.iml" filepath="$PROJECT_DIR$/zrcListViewDemo/zrcListViewDemo.iml" />
+    </modules>
+  </component>
+</project>

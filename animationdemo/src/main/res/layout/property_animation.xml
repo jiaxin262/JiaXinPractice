@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/pink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:id="@+id/animate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="animation"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/animate_click_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:id="@+id/value_animator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="VALUE"
+            android:padding="10dp"
+            android:background="@drawable/animation_button_shape"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/object_animator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="OBJECT"
+            android:padding="10dp"
+            android:background="@drawable/animation_button_shape"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="ALPHA"
+            android:padding="10dp"
+            android:background="@drawable/animation_button_shape"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

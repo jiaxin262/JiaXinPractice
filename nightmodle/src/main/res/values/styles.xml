@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DayTheme" parent="Theme.AppCompat.Light">>
+        <item name="colorValue">@color/title</item>
+        <item name="floatValue">0.35</item>
+        <item name="integerValue">33</item>
+        <item name="booleanValue">true</item>
+        <item name="dimensionValue">16dp</item>
+        <!-- 如果string类型不是填的引用而是直接放一个字符串,在布局文件中使用正常,但代码里获取的就有问题 -->
+        <item name="stringValue">@string/action_settings</item>
+        <item name="referenceValue">@color/bg</item>
+        <item name="curVisibility">show</item>
+    </style>
+    <style name="NightTheme" parent="Theme.AppCompat.Light">
+        <item name="colorValue">@color/night_title</item>
+        <item name="floatValue">1.44</item>
+        <item name="integerValue">55</item>
+        <item name="booleanValue">false</item>
+        <item name="dimensionValue">18sp</item>
+        <item name="stringValue">@string/night_action_settings</item>
+        <item name="referenceValue">@color/night_bg</item>
+        <item name="curVisibility">hide</item>
+    </style>
+</resources>

@@ -177,28 +177,28 @@ public class DetectorImageView extends View
 	/**onDoubleTapListener methods*/
 	@Override
 	public boolean onSingleTapConfirmed(MotionEvent e) {
-		Log.d(DEBUG_TAG, "onSingleTapConfirmed: " + e.toString());
+		Log.e(DEBUG_TAG, "onSingleTapConfirmed: " + e.toString());
 		return true;
 	}
 
 	@Override
 	public boolean onDoubleTap(MotionEvent e) {
-		Log.d(DEBUG_TAG, "onDoubleTap: " + e.toString());
+		Log.e(DEBUG_TAG, "onDoubleTap: " + e.toString());
 		return true;
 	}
 
 	@Override
 	public boolean onDoubleTapEvent(MotionEvent e) {
-		Log.d(DEBUG_TAG, "onDoubleTapEvent: " + e.toString());
+		Log.e(DEBUG_TAG, "onDoubleTapEvent: " + e.toString());
 		return true;
 	}
 
 	/**onGestureListener methods*/
 	@Override
 	public boolean onDown(MotionEvent e) {
-		Log.d(DEBUG_TAG, "onDown: " + e.getPointerCount());
+		Log.e(DEBUG_TAG, "onDown: " + e.getPointerCount());
 		if (e.getPointerCount() == 2) {
-			Log.d(DEBUG_TAG, "两个手指头onDown: " + e.toString());
+			Log.e(DEBUG_TAG, "两个手指头onDown: " + e.toString());
 			// 当有两个手指按在屏幕上时，计算两指之间的距离
 			lastFingerDis = distanceBetweenFingers(e);
 		}
@@ -207,14 +207,14 @@ public class DetectorImageView extends View
 
 	@Override
 	public void onShowPress(MotionEvent e) {
-		Log.d(DEBUG_TAG, "onShowPress: " + e.toString());
+		Log.e(DEBUG_TAG, "onShowPress: " + e.toString());
 	}
 
 	@Override
 	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-		Log.d(DEBUG_TAG, "onScroll: " + e1.toString());
+		Log.e(DEBUG_TAG, "onScroll: " + e1.toString());
 		if (e1.getPointerCount() == 1) {	// 只有单指按在屏幕上移动时，为拖动状态
-			Log.d(DEBUG_TAG, "onScroll-count111: " + e1.toString());
+			Log.e(DEBUG_TAG, "onScroll-count111: " + e1.toString());
 			currentStatus = STATUS_MOVE;
 			movedDistanceX = distanceX;
 			movedDistanceY = distanceY;
@@ -223,7 +223,7 @@ public class DetectorImageView extends View
 			// 调用onDraw()方法绘制图片
 			invalidate();
 		} else if (e1.getPointerCount() == 2) {	// 有两个手指按在屏幕上移动时，为缩放状态
-			Log.d(DEBUG_TAG, "onScroll-count222: " + e1.toString());
+			Log.e(DEBUG_TAG, "onScroll-count222: " + e1.toString());
 			centerPointBetweenFingers(e1);
 			double fingerDis = distanceBetweenFingers(e1);
 			if (fingerDis > lastFingerDis) {
@@ -251,19 +251,19 @@ public class DetectorImageView extends View
 
 	@Override
 	public void onLongPress(MotionEvent e) {
-		Log.d(DEBUG_TAG, "onLongPress: " + e.toString());
+		Log.e(DEBUG_TAG, "onLongPress: " + e.toString());
 	}
 
 
 	@Override
 	public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-		Log.d(DEBUG_TAG, "onFling: " + e1.toString() + "###" + e2.toString());
+		Log.e(DEBUG_TAG, "onFling: " + e1.toString() + "###" + e2.toString());
 		return true;
 	}
 
 	@Override
 	public boolean onSingleTapUp(MotionEvent e) {
-		Log.d(DEBUG_TAG, "onSingleTapUp: " + e.toString());
+		Log.e(DEBUG_TAG, "onSingleTapUp: " + e.toString());
 		return true;
 	}
 

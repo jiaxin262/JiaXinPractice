@@ -81,16 +81,6 @@ public class DetectorImageView extends View
 	private float currentBitmapHeight;
 
 	/**
-	 * 记录上次手指移动时的横坐标
-	 */
-	private float lastXMove = -1;
-
-	/**
-	 * 记录上次手指移动时的纵坐标
-	 */
-	private float lastYMove = -1;
-
-	/**
 	 * 记录手指在横坐标方向上的移动距离
 	 */
 	private float movedDistanceX;
@@ -212,15 +202,12 @@ public class DetectorImageView extends View
 
 	@Override
 	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-		Log.e(DEBUG_TAG, "onScroll: " + e1.toString());
+		//Log.e(DEBUG_TAG, "onScroll: " + e1.toString());
 		if (e1.getPointerCount() == 1) {	// 只有单指按在屏幕上移动时，为拖动状态
-			Log.e(DEBUG_TAG, "onScroll-count111: " + e1.toString());
 			currentStatus = STATUS_MOVE;
 			movedDistanceX = distanceX;
 			movedDistanceY = distanceY;
 			// todo:进行边界检查，不允许将图片拖出边界
-
-			// 调用onDraw()方法绘制图片
 			invalidate();
 		} else if (e1.getPointerCount() == 2) {	// 有两个手指按在屏幕上移动时，为缩放状态
 			Log.e(DEBUG_TAG, "onScroll-count222: " + e1.toString());
@@ -241,7 +228,6 @@ public class DetectorImageView extends View
 				} else if (totalRatio < initRatio) {
 					totalRatio = initRatio;
 				}
-				// 调用onDraw()方法绘制图片
 				invalidate();
 				lastFingerDis = fingerDis;
 			}
@@ -343,14 +329,12 @@ public class DetectorImageView extends View
 	private void move(Canvas canvas) {
 		matrix.reset();
 		// 根据手指移动的距离计算出总偏移值
-		float translateX = totalTranslateX + movedDistanceX;
-		float translateY = totalTranslateY + movedDistanceY;
+		totalTranslateX -= movedDistanceX;
+		totalTranslateY -= movedDistanceY;
 		// 先按照已有的缩放比例对图片进行缩放
 		matrix.postScale(totalRatio, totalRatio);
 		// 再根据移动距离进行偏移
-		matrix.postTranslate(-translateX, -translateY);
-		totalTranslateX = translateX;
-		totalTranslateY = translateY;
+		matrix.postTranslate(totalTranslateX, totalTranslateY);
 		canvas.drawBitmap(sourceBitmap, matrix, null);
 	}
 
